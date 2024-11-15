@@ -1,0 +1,29 @@
+/* App.css */
+
+/* Header Styling */
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #4e3629; /* Brown background for the header */
+  color: white;
+}
+
+/* Main Content Layout */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh; /* Make sure the content area takes up some space */
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #4e3629; /* Same brown background as header */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+
