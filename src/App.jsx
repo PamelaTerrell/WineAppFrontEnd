@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import WineList from './components/WineList'; // Assuming this is your Wine List component
 import WineForm from './components/WineForm'; // Assuming this is your Add Wine form
+import WinePairing from './components/WinePairing'; // Import the new WinePairing component
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/wines" element={<WineList />} />
           <Route path="/add-wine" element={<WineForm />} />
+          <Route path="/wines/pairing" element={<WinePairing />} /> {/* New Route for Wine Pairing */}
         </Routes>
       </div>
     </Router>
